@@ -1,146 +1,133 @@
-# Awesome-Knowledge-Management-AI
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Knowledge Management AI Banner" width="100%">
+</p>
 
-Top Knowledge Management AI Tools Ecosystem
+# 🧠 Awesome Knowledge Management AI 🚀
 
-Curated List of SaaS Products & Open-Source GitHub Projects
-Focused on AI-Powered Search, Enterprise RAG, Knowledge Graph & Intelligent Documentation
-Last updated: September 2026
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Knowledge-Management-AI"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Knowledge-Management-AI?style=flat-square&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Knowledge-Management-AI/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Knowledge-Management-AI?style=flat-square&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Knowledge-Management-AI/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Knowledge-Management-AI?style=flat-square&color=orange" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Knowledge-Management-AI/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Knowledge-Management-AI?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable SaaS platforms and open-source projects for Knowledge Management AI. These tools help organizations capture, organize, and retrieve institutional knowledge using AI-powered search, retrieval-augmented generation (RAG), knowledge graphs, and intelligent assistants.
+> 📚 **Curated Hub of Knowledge Management AI Tools, Enterprise Search, Knowledge Graphs, and Open-Source RAG Frameworks**  
+> *Track market sizes, SaaS pricing structures, enterprise valuations, and star-sorted open-source repos for modern AI-driven knowledge retrieval.*  
+> 🗓️ **Last updated:** September 2026
 
-Examples include Guru, Slab, Confluence, Notion, Document360, Bloomfire, Helpjuice, Tettra, Nuclino, Stack Overflow for Teams, Glean, Notion AI, Confluence AI, and Document360 AI (the category leaders).
+---
 
-Open-source emphasis: This section is heavily expanded with every major active project for self-hosting, custom RAG pipelines, and transparent AI-powered knowledge retrieval — ideal for teams that want full control over sensitive internal documentation and AI workflows without per-seat SaaS fees.
+## 📌 Executive Overview
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+This repository tracks notable SaaS platforms and open-source projects for **Knowledge Management AI**. These platforms enable modern enterprises to capture, structure, and retrieve institutional knowledge using AI-powered enterprise search, Retrieval-Augmented Generation (RAG), Knowledge Graphs, and intelligent agent workflows.
 
-Table of Contents
+* 💡 **Enterprise SaaS Solutions:** Detailed price breakdown, starting plans, free-tier limits, and corporate valuations.
+* 🔓 **Open-Source & Self-Hosted Focus:** High-growth GitHub projects, RAG frameworks, vector databases, and privacy-first local knowledge bases sorted by star count.
 
-SaaS/Hosted Platforms
+---
 
-Open-Source GitHub Projects
+## 📖 Table of Contents
 
-How to Contribute
+- [💼 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 
-Disclaimer
+---
 
-SaaS/Hosted Platforms
+## 💼 SaaS/Hosted Platforms
 
-Glean
-AI-powered enterprise search and work assistant. Indexes 100+ applications with permission-aware retrieval, builds an Enterprise Knowledge Graph connecting people, content, and activity, and provides AI agents for cross-application workflows. Requires a ~100-seat minimum with quote-based pricing -
-1
--
-2
--
-10
-.
+The global AI-driven Knowledge Management market size is estimated at **$7.7B in 2025** and projected to reach **$11.2B in 2026** (with the broader KM software market reaching ~$16.2B–$17.1B). The sector is currently **highly fragmented**, driven by data silos and metadata drift ("fragmentation tax"), but is rapidly undergoing consolidation toward permission-aware semantic infrastructure.
 
-Notion AI
-AI assistant integrated into the Notion workspace. Now bundled into the Business plan, providing writing assistance, Q&A across workspace content, enterprise search, AI meeting notes, and AI agents that handle multi-step tasks -
-1
--
-3
--
-18
-.
+| Product | Enterprise Size / Valuation | Starting Price | Free Tier / Trial Limit | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Confluence + Rovo** | ~$47B Market Cap (Atlassian) | $5.42/user/month | 10 users free limit (Confluence Standard free up to 10 users; Rovo requires paid tier) | Atlassian's AI engine bundled into paid Confluence Cloud plans. Provides AI search across the org's knowledge graph, chat, agents, and "Remix" capabilities. |
+| **Notion AI** | ~$11.0B Valuation (~$600M ARR) | $20.00/user/month | 1,000 AI response block limit (bundled in Business Plan) | AI assistant integrated into the Notion workspace, providing writing assistance, Q&A across workspace content, enterprise search, and AI agents. |
+| **Glean** | ~$7.2B Valuation (~$300M ARR) | $35.00/user/month | 30-day trial (Requires 100-seat minimum enterprise contract) | AI-powered enterprise search and work assistant indexing 100+ apps with permission-aware retrieval and Enterprise Knowledge Graph. |
+| **Stack Overflow for Teams** | $1.8B Valuation (Acquired by Prosus) | $6.50/user/month | 50 users free limit (Free forever plan for up to 50 users) | Private Q&A platform evolving into Stack Internal with AI knowledge ingestion, MCP server integration, and human-verified workflows. |
+| **Document360 AI (Eddy AI)** | ~$10M+ ARR (Kovai.co) | $149.00/month | 14-day free trial limit | Knowledge base platform with AI-assisted article generation, SEO metadata, intelligent search, and Eddy AI chatbot. |
+| **Bloomfire** | ~$11.7M ARR | $25.00/user/month | 14-day free trial limit (Typically 50-user minimum starting commitment) | Knowledge engagement platform with AI-powered search, community Q&A, content verification, and enterprise onboarding. |
+| **Helpjuice** | ~$4.5M ARR | $249.00/month (flat rate up to 30 users) | 14-day free trial limit | Knowledge base software with AI-powered search, rich text editor, version control, and multi-language support. |
+| **Tettra** | ~$3.2M ARR | $8.00/user/month | 30-day free trial limit (10-user minimum on paid plans) | Lightweight internal knowledge base with AI capabilities. Integrates with Slack and Teams to capture tribal knowledge into documentation. |
+| **Guru** | ~$2.5M ARR (Private) | $25.00/user/month | 30-day free trial limit (10-seat minimum commitment) | AI-powered knowledge management surfacing verified answers directly in Slack, browser, and enterprise workflows. |
+| **Slab** | ~$2.0M ARR (Private) | $6.67/user/month | 10 users free limit (Free plan up to 10 users & guests) | Modern knowledge base with AI-powered unified search across connected tools, focusing on streamlined internal documentation. |
+| **Nuclino** | <$1.0M ARR (Private) | $5.00/user/month | 50 items & 2GB storage free limit (Free plan with 50 items total) | Collaborative wiki with AI features, combining docs, real-time editing, and visual graph view for connected knowledge. |
 
-Confluence + Rovo
-Atlassian's AI engine bundled into paid Confluence Cloud plans. Provides AI search across the org's knowledge graph, chat, agents, and "Remix" capabilities that transform content into charts, infographics, and presentations. Partner agents connect to Lovable, Replit, and Gamma via MCP -
-1
--
-4
--
-12
-.
+---
 
-Document360 AI (Eddy AI)
-Knowledge base platform with AI-assisted article generation, SEO metadata, intelligent search, and AI chatbot. The Knowledge Pulse module uses Eddy AI for duplicate content detection and conversion of repeated content into reusable snippets -
-5
--
-13
-.
+## ⚡ Open-Source GitHub Projects
 
-Guru
-AI-powered knowledge management that surfaces verified answers directly in Slack, browser, and other tools. Verification workflows ensure accuracy, with AI search across cards and collections.
+Below is a curated selection of open-source knowledge management platforms, RAG orchestration frameworks, vector databases, knowledge graphs, and documentation tools, sorted by GitHub star count.
 
-Slab
-Modern knowledge base with AI-powered unified search across connected tools. Focuses on streamlined internal documentation with verification workflows.
+| Project | GitHub Stars | License | Description |
+| :--- | :--- | :--- | :--- |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | [![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | MIT | Standard framework for building LLM applications, custom RAG pipelines, and agentic workflows. |
+| **[Dify](https://github.com/dify-ai/dify)** | [![Stars](https://img.shields.io/github/stars/dify-ai/dify?style=social&color=white)](https://github.com/dify-ai/dify/stargazers) | AGPL-3.0 | Open-source LLM application development platform with visual RAG pipeline builder and knowledge base orchestration. |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | AGPL-3.0 | Open-source Notion alternative built with Flutter and Rust, featuring native AI workspace capabilities. |
+| **[RAGFlow](https://github.com/infiniflow/ragflow)** | [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) | Apache-2.0 | Open-source RAG engine based on deep document understanding, delivering structured knowledge extraction and citations. |
+| **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** | [![Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers) | MIT | All-in-one desktop & enterprise AI application for turning documents into searchable knowledge bases with full privacy. |
+| **[Meilisearch](https://github.com/meilisearch/meilisearch)** | [![Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) | MIT | Lightning-fast, hyper-relevant hybrid & vector search engine designed for intuitive documentation search. |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | [![Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) | MIT | Data framework for connecting custom enterprise data sources to LLMs for context-augmented applications. |
+| **[Milvus](https://github.com/milvus-io/milvus)** | [![Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers) | Apache-2.0 | Cloud-native vector database designed for scale and enterprise RAG search operations. |
+| **[Outline](https://github.com/outline/outline)** | [![Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | BSL-1.1 | Fastest collaborative team knowledge base built on Node.js and React with rich AI search capabilities. |
+| **[Quivr](https://github.com/QuivrHQ/quivr)** | [![Stars](https://img.shields.io/github/stars/QuivrHQ/quivr?style=social&color=white)](https://github.com/QuivrHQ/quivr/stargazers) | Apache-2.0 | Open-source Second Brain powered by Generative AI to store and query unstructured knowledge documents. |
+| **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** | [![Stars](https://img.shields.io/github/stars/chatchat-space/Langchain-Chatchat?style=social&color=white)](https://github.com/chatchat-space/Langchain-Chatchat/stargazers) | MIT | Offline-first local knowledge base QA application built with LangChain and self-hosted LLMs. |
+| **[Qdrant](https://github.com/qdrant/qdrant)** | [![Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) | Apache-2.0 | High-performance vector similarity search engine and database with extended payload filtering. |
+| **[Typesense](https://github.com/typesense/typesense)** | [![Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers) | GPL-3.0 | Fast, typo-tolerant open-source search engine supporting hybrid vector and keyword search. |
+| **[Haystack](https://github.com/deepset-ai/haystack)** | [![Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers) | Apache-2.0 | Production-ready AI framework for building NLP pipelines, semantic search, and agentic RAG. |
+| **[pgvector](https://github.com/pgvector/pgvector)** | [![Stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers) | PostgreSQL | Open-source vector similarity search extension for PostgreSQL database instances. |
+| **[Docmost](https://github.com/docmost/docmost)** | [![Stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers) | AGPL-3.0 | Open-source collaborative documentation and wiki software, serving as a Notion/Confluence alternative. |
+| **[Neo4j](https://github.com/neo4j/neo4j)** | [![Stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers) | GPL-3.0 | Native graph database platform optimized for enterprise Knowledge Graph relationship mapping. |
+| **[Weaviate](https://github.com/weaviate/weaviate)** | [![Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers) | BSD-3-Clause | Open-source AI-native vector database for hybrid search and multi-modal knowledge storage. |
+| **[ArangoDB](https://github.com/arangodb/arangodb)** | [![Stars](https://img.shields.io/github/stars/arangodb/arangodb?style=social&color=white)](https://github.com/arangodb/arangodb/stargazers) | Apache-2.0 | Multi-model database combining graph, document, and search engine capabilities for knowledge layers. |
+| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Apache-2.0 | Community-driven, open-source search and analytics suite supporting enterprise hybrid search. |
+| **[PipesHub](https://github.com/pipeshub-ai/pipeshub-ai)** | [![Stars](https://img.shields.io/github/stars/pipeshub-ai/pipeshub-ai?style=social&color=white)](https://github.com/pipeshub-ai/pipeshub-ai/stargazers) | MIT | AI context layer unifying business data with 87+ connectors, RAG pipeline, and MCP server. |
+| **[Petrichor](https://github.com/kushalpandya/Petrichor)** | [![Stars](https://img.shields.io/github/stars/kushalpandya/Petrichor?style=social&color=white)](https://github.com/kushalpandya/Petrichor/stargazers) | MIT | Self-hosted knowledge platform turning Markdown into wikis, evidence, and agent-ready knowledge. |
+| **[Xyne](https://github.com/xynehq/xyne)** | [![Stars](https://img.shields.io/github/stars/xynehq/xyne?style=social&color=white)](https://github.com/xynehq/xyne/stargazers) | AGPL-3.0 | AI-first search and answer engine for work, providing Glean alternative with cross-app indexing. |
+| **[OpenBeam](https://github.com/tensorkithq/openbeam)** | [![Stars](https://img.shields.io/github/stars/tensorkithq/openbeam?style=social&color=white)](https://github.com/tensorkithq/openbeam/stargazers) | AGPL-3.0 | Open-source Glean alternative bridging SaaS tools and physical operations data (IoT/Industrial protocols). |
+| **[Kherad](https://github.com/mohammadmaso/kherad)** | [![Stars](https://img.shields.io/github/stars/mohammadmaso/kherad?style=social&color=white)](https://github.com/mohammadmaso/kherad/stargazers) | AGPL-3.0 | Self-hosted, git-backed knowledge base with block editor, real git commits, and RAG chat over docs. |
 
-Bloomfire
-Knowledge engagement platform with AI-powered search, community Q&A, and content verification. Focused on enterprise knowledge sharing and employee onboarding.
+---
 
-Helpjuice
-Knowledge base software with AI-powered search, rich text editor, version control, and multi-language support. Known for ease of use and responsive support.
+## 🤝 How to Contribute
 
-Tettra
-Lightweight internal knowledge base with AI capabilities. Integrates with Slack and Teams to capture tribal knowledge and turn conversations into documentation.
+1. 🍴 **Fork the repository**
+2. 📝 **Add or update entries** in `README.md` (ensuring exact tabular format and accurate figures)
+3. 🔗 **Include essential metadata:** Name, official/repository link, description, pricing/licensing
+4. 🚀 **Submit a Pull Request** with a concise description of your changes
+5. ⭐ **Star the repo** if this resource helps your research or enterprise build!
 
-Nuclino
-Collaborative wiki with AI features. Combines docs, real-time editing, and a visual graph view for connected knowledge.
+Also check out our meta-list: [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
 
-Stack Overflow for Teams
-Private Q&A platform evolving into Stack Internal with AI-powered knowledge ingestion from tools like Teams and Confluence, MCP server for AI integration, and human-verified content workflows.
+---
 
-Open-Source GitHub Projects
+## ⚠️ Disclaimer
 
-PipesHub
-Fully extensible AI context layer that unifies business data for explainable enterprise search and agentic workflow automation. Features 87+ connectors (Slack, GitHub, Notion, Salesforce, Jira, IoT platforms), hybrid semantic + keyword search, RAG pipeline with citations, MCP server, and permission-aware indexing. Tech stack: Neo4j/ArangoDB, Qdrant/OpenSearch, MongoDB, FastAPI, LangChain. Self-hostable via Docker Compose. License: Open source -
-6
-.
+- This is a community-curated list — not an exhaustive list or direct endorsement.
+- Knowledge management AI tools index sensitive enterprise documents; enforce proper access controls, permission-aware indexing, and AI governance policies.
+- Self-hosted open-source solutions require proper security hardening, model governance, and regular data compliance audits.
 
-OpenBeam
-Open-source Glean alternative positioning itself as the only platform bridging SaaS tools and physical operations data (IoT sensors, industrial protocols, camera feeds) in one searchable layer. 87 connectors including digital (Slack, GitHub, Notion, Linear, Salesforce, Jira, Gmail), IoT (Samsara, Verkada, AWS IoT), and industrial protocols (MQTT, OPC-UA, BACnet). Features hybrid search (sub-200ms p99), AI agents with 100+ composable tools, six autonomous agents on Temporal cron schedules, MCP server, and permission-aware indexing. Self-hostable via Docker Compose. License: AGPL -
-14
-.
+---
 
-Xyne
-AI-first search and answer engine for work. Open-source alternative to Glean, Gemini, and MS Copilot. Connects to Google Workspace, Atlassian suite, Slack, GitHub, and more. Securely indexes data, maps a graph of relationships, and provides Google + ChatGPT-like experience for finding anything across applications. Docker image available. License: Open source -
-7
-.
+## 📈 Star History
 
-Kherad
-Self-hosted, git-backed knowledge base with a Notion-like block editor. Every save is a real git commit with merge-request review workflow. Features RAG chat over docs with cited sources, AI specialist agents that draft wiki pages, document/voice ingest (PDF, Office, OCR, speech-to-text), link graph, and permission-aware full-text search. Built with TypeScript (Fastify, Next.js), PostgreSQL, Drizzle ORM. Docker Compose deployment. License: Open source -
-8
-.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Knowledge-Management-AI&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Knowledge-Management-AI&type=date&legend=top-left)
 
-Petrichor
-Self-hosted knowledge platform for humans and AI agents. Turns Markdown into wikis, evidence, and agent-ready knowledge. Features Agentic RAG with BM25/Vector/Wiki fusion, semantic Wiki extraction with entity and concept mapping, multi-article aggregation with source citations, Agent Runtime with ReAct tool loops and sub-agents, MCP support, and export to OKF/Obsidian/Agent Skill packages. Tech stack: Go + Gin, PostgreSQL, Redis, S3, Caddy. Docker Compose deployment. License: Open source -
-15
-.
+---
 
-Additional Strong Open-Source Options
+## 💖 Support & Sponsorship
 
-RAG Frameworks: LangChain (multi-provider LLM orchestration), LlamaIndex (data framework for LLM applications), Haystack (NLP framework for semantic search and QA).
+Thank you for exploring and contributing to **Awesome-Knowledge-Management-AI**! 🙏
 
-Vector Databases: Qdrant, Weaviate, Milvus, pgvector (PostgreSQL extension for vector similarity search).
+If you find this repository valuable for your work, research, or enterprise AI setup, please consider:
+- ⭐ **Starring** the repository on GitHub
+- 🔀 **Forking** and sharing with colleagues and fellow engineers
+- 💬 **Joining our community** on [Discord](https://discord.gg/jc4xtF58Ve)
+- ☕ **Sponsoring the project / Buying a coffee:** [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/ishandutta2007)
 
-Knowledge Graphs: Neo4j (graph database for relationship mapping), ArangoDB (multi-model database), Apache AGE (graph extension for PostgreSQL).
-
-Wiki & Documentation: Outline (collaborative knowledge base with AI search), Docmost (Confluence/Notion alternative with real-time collaboration), BookStack (structured documentation platform), AppFlowy (open-source Notion alternative with AI integration).
-
-Enterprise Search: Typesense (fast typo-tolerant search), Meilisearch (lightning-fast search engine), OpenSearch (distributed search and analytics).
-
-Frameworks for building custom systems: Combine PipesHub or OpenBeam for the AI context layer, Neo4j for knowledge graph, Qdrant for vector search, LangChain for RAG orchestration, and Ollama for self-hosted LLM inference. Add Kherad or Outline for the wiki frontend.
-
-How to Contribute
-
-Fork the repo.
-
-Add/edit entries in README.md (follow existing format).
-
-Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-Knowledge management AI tools handle sensitive internal documentation; ensure proper access controls, permission-aware indexing, and AI governance policies.
-
-Self-hosted open-source solutions require proper security hardening, model management, and regular audits.
-
-Made for knowledge managers, platform engineers, AI practitioners, and enterprise architects.
-Let's make knowledge management AI more open, transparent, and context-aware.
+*Made with ❤️ for knowledge managers, platform engineers, AI practitioners, and enterprise architects.*
