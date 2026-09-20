@@ -25,7 +25,7 @@
 This repository tracks notable SaaS platforms and open-source projects for **Knowledge Management AI**. These platforms enable modern enterprises to capture, structure, and retrieve institutional knowledge using AI-powered enterprise search, Retrieval-Augmented Generation (RAG), Knowledge Graphs, and intelligent agent workflows.
 
 * 💡 **Enterprise SaaS Solutions:** Detailed price breakdown, starting plans, free-tier limits, and corporate valuations.
-* 🔓 **Open-Source & Self-Hosted Focus:** High-growth GitHub projects, RAG frameworks, vector databases, and privacy-first local knowledge bases sorted by star count.
+* 🔓 **Open-Source & Self-Hosted Focus:** High-growth GitHub projects, RAG frameworks, vector databases, and privacy-first local knowledge bases sorted by Stars_Count.
 
 ---
 
@@ -62,9 +62,9 @@ The global AI-driven Knowledge Management market size is estimated at **$7.7B in
 
 ## ⚡ Open-Source GitHub Projects
 
-Below is a curated selection of open-source knowledge management platforms, RAG orchestration frameworks, vector databases, knowledge graphs, and documentation tools, sorted by GitHub star count.
+Below is a curated selection of open-source knowledge management platforms, RAG orchestration frameworks, vector databases, knowledge graphs, and documentation tools, sorted by GitHub Stars_Count.
 
-| Project | GitHub Stars | License | Description |
+| Project | GitHub_Stars | License | Description |
 | :--- | :--- | :--- | :--- |
 | **[LangChain](https://github.com/langchain-ai/langchain)** | [![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | MIT | Standard framework for building LLM applications, custom RAG pipelines, and agentic workflows. |
 | **[Dify](https://github.com/dify-ai/dify)** | [![Stars](https://img.shields.io/github/stars/dify-ai/dify?style=social&color=white)](https://github.com/dify-ai/dify/stargazers) | AGPL-3.0 | Open-source LLM application development platform with visual RAG pipeline builder and knowledge base orchestration. |
