@@ -91,6 +91,7 @@ Below is a curated selection of open-source knowledge management platforms, RAG 
 | **[Xyne](https://github.com/xynehq/xyne)** | [![Stars](https://img.shields.io/github/stars/xynehq/xyne?style=social&color=white)](https://github.com/xynehq/xyne/stargazers) | AGPL-3.0 | AI-first search and answer engine for work, providing Glean alternative with cross-app indexing. |
 | **[OpenBeam](https://github.com/tensorkithq/openbeam)** | [![Stars](https://img.shields.io/github/stars/tensorkithq/openbeam?style=social&color=white)](https://github.com/tensorkithq/openbeam/stargazers) | AGPL-3.0 | Open-source Glean alternative bridging SaaS tools and physical operations data (IoT/Industrial protocols). |
 | **[Kherad](https://github.com/mohammadmaso/kherad)** | [![Stars](https://img.shields.io/github/stars/mohammadmaso/kherad?style=social&color=white)](https://github.com/mohammadmaso/kherad/stargazers) | AGPL-3.0 | Self-hosted, git-backed knowledge base with block editor, real git commits, and RAG chat over docs. |
+| **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** | [![Stars](https://img.shields.io/github/stars/louis030195/hyperconsciousness?style=social&color=white)](https://github.com/louis030195/hyperconsciousness/stargazers) | MIT | Developer-alpha encrypted, append-only knowledge store with a Rust CLI and MCP server for scoped, expiring access by AI agents; built from source. |
 
 ---
 
